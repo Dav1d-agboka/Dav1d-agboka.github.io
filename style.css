@@ -18,13 +18,16 @@
         }
 
         header {
-            padding: 0.8rem 1rem;
             position: sticky;
             top: 0;
             z-index: 100;
             background: linear-gradient(135deg, var(--primary), var(--secondary));
             color: white;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
         }
 
         .home-img{
