@@ -51,6 +51,8 @@
         }
         /* Logo stays on the left */
         .logo {
+            height: 50px; /* adjust as needed */
+            width: auto;  /* keeps proportions */
             font-size: 1.65rem;
             white-space: nowrap;
             flex-shrink: 0;
