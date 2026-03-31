@@ -26,6 +26,19 @@
             color: white;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
+
+        .home-img{
+            border-radius: 50%;
+        }
+
+        .home-img img{
+            position: relative;
+            width: 32vw;
+            border-radius: 50%;
+            box-shadow: 0 0 5px solid #b74b4b;
+            cursor: pointor;
+            transition: 0.2s linear;
+        }
         .header-content {
             display: flex;
             align-items: center;
